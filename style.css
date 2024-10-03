@@ -1,0 +1,227 @@
+
+
+body{
+    background-color: black ;
+    width: 1440px;
+    height: 2600px;
+    margin: 0;
+}
+
+
+.banner {
+    border-bottom: solid 3px;
+    border-color: #33A8DB;
+    width: 1440px;
+    height: 605px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.5));
+}
+
+#course-content {
+    position: absolute;
+    width: 892px;
+    height: 225px;
+    top: 550px;
+    left: 324px;
+}
+
+#professional-challenges {
+
+    position: absolute;
+    top: 1685px;
+}
+
+footer {
+    position: absolute;
+    top: 2321px;
+}
+
+.logo {
+    align-items: center;
+    justify-items: center;
+    width: 268px;
+    height: 268px;
+}
+
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 56px;
+    left: 465px;    
+}
+
+.banner-content h1 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(180deg, #33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+    text-transform: uppercase;
+}
+
+.banner-content p {
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    line-height: 23.48px;
+    font-weight: 400;
+    margin: 40;
+}
+
+.banner-content button {
+    height: 57px;
+    padding: 19px 91px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: solid 2px;
+    border-color: #33A8DB;
+    font-size: 16px;
+    color: #31a8dd;
+    line-height: 18.78px;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+#course-content p {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    width: 792px;
+}
+
+#course-content h2 {
+    margin: 0;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    color: #33A8DB;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 120px;
+    letter-spacing: 11px;
+    padding-left: 125px;
+}
+
+#course-content .module {
+    width: 440px;
+    height: 21px;
+    border-radius: 57px;
+    border: solid 1px;
+    padding: 16px 50px;
+    background-color: #252525;
+    border-color: #33A8DB;
+    box-shadow: -2px 6px 4px 0px #00000066 inset;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 18.78px;
+    font-family: 'Raleway';
+    align-content: center;
+    margin: 20px 130px 10px 130px;
+}
+
+.modules-list {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+#course-content .module span {
+    color: #1472B7;
+}
+
+#transform-world {
+    position: absolute;
+    top: 1198px;
+    width: 1440px;
+    height: 363px;
+    background-image: url(assets/images/woman-code.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: solid 2px;
+    border-color: #33A8DB;
+}
+
+#transform-world p {
+    position: relative;
+    left: 130px;
+    top: 110px;
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 3px 2px 0px rgba(51, 168, 219, 1);
+    width: 325px;
+    height: 141px;
+    text-transform: lowercase;
+
+}
+
+#professional-challenges h2 {
+    color: #31a8dd;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 38px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    left: 347px;
+}
+#professional-challenges img {
+    position: relative;
+    left: 390px;
+}
+
+#professional-challenges p {
+    position: relative;
+    left: 324px;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 792px;
+    margin-bottom: 40px;
+}
+
+footer {
+    width: 1440px;
+    height: max-content;
+    position: absolute;
+    top: 2390px;
+    border: solid 2px;
+    border-color: #1472B7;
+}
+
+footer p {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer img {
+    padding-left: 528px;
+    padding-top: 30px;
+}
+
+.conteudo {
+    height: 600px;
+}
+
+main {
+    height: 590px;
+    border-bottom: solid 2px;
+    border-color: #33A8DB;
+}
